@@ -2,15 +2,19 @@
   width: 100%;
   min-height: 80px;
   background: linear-gradient(180deg, #EFECE7 0%, #F7F6F2 100%);
-  position: relative;
-  padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 .header-content {
-  padding: 20px 5%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
+  width: 100%;
   margin: 0 auto;
+  padding: 0 15%;
+  display: flex;
+  align-items: center;
 }
+
 
 .logo-container {
   display: flex;
@@ -56,7 +60,7 @@
 .logo-text {
   font-family: 'Bricolage Grotesque', sans-serif;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 1.2;
   color: #001433;
   margin: 0;

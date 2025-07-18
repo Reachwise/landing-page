@@ -5,31 +5,31 @@
   gap: 24px;
   padding: 60px 5% 80px;
   max-width: 1200px;
+
   margin: 0 auto;
-  background: linear-gradient(180deg, #F7F6F2 0%, #EFECE7 100%);
 }
 
 .hero-badge {
-  width: auto;
-  min-width: 280px;
-  max-width: 320px;
-  height: auto;
-  background-color: #F5F4F1;
-  border: 1px solid #E5E5E5;
-  border-radius: 25px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 10px 24px;
+  background: #f5f4f1;
+  border-radius: 999px; /* fully rounded pill shape */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05), inset 0 0 4px rgba(0, 0, 0, 0.06); /* soft outer + inner glow */
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  min-width: 280px;
+  max-width: 420px;
 }
 
 .badge-text {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.4;
-  color: #324B73;
+  color: #324b73;
   text-align: center;
+  white-space: nowrap; /* prevent text wrapping */
 }
 
 .hero-content {
@@ -41,23 +41,23 @@
 }
 
 .hero-title {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 800;
-  font-size: 48px;
+  font-size: 76px;
   line-height: 1.1;
   color: #001433;
   text-align: center;
   margin: 0;
   position: relative;
-  max-width: 900px;
+  max-width: 1260px;
 }
 
 .hero-title::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 200px;
   height: 40px;
-  background-color: #FCA739;
+  background-color: #fca739;
   border-radius: 6px;
   bottom: -8px;
   right: 10%;
@@ -66,13 +66,13 @@
 }
 
 .hero-description {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 1.5;
-  color: #324B73;
+  color: #324b73;
   text-align: center;
-  max-width: 800px;
+  max-width: 80rem;
   margin: 0;
 }
 
@@ -85,13 +85,21 @@
 }
 
 .no-credit-card {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.3;
-  color: #324B73;
+  color: #324b73;
   text-align: center;
   margin: 0;
+}
+
+.highlighted-word {
+  background-color: #fca739;
+  border-radius: 6px;
+  padding: 0 8px;
+  display: inline-block;
+  line-height: 1.2;
 }
 
 /* Responsive Design */
@@ -100,27 +108,27 @@
     padding: 40px 4% 60px;
     gap: 20px;
   }
-  
+
   .hero-title {
     font-size: 36px;
     line-height: 1.2;
   }
-  
+
   .hero-title::after {
     width: 150px;
     height: 30px;
     bottom: -6px;
     right: 5%;
   }
-  
+
   .hero-description {
     font-size: 16px;
   }
-  
+
   .badge-text {
     font-size: 14px;
   }
-  
+
   .hero-badge {
     min-width: 240px;
     max-width: 280px;
@@ -133,34 +141,34 @@
     padding: 30px 4% 50px;
     gap: 16px;
   }
-  
+
   .hero-title {
     font-size: 28px;
     line-height: 1.2;
   }
-  
+
   .hero-title::after {
     width: 120px;
     height: 24px;
     bottom: -4px;
     right: 0%;
   }
-  
+
   .hero-description {
     font-size: 15px;
     line-height: 1.4;
   }
-  
+
   .badge-text {
     font-size: 13px;
   }
-  
+
   .hero-badge {
     min-width: 200px;
     max-width: 240px;
     padding: 6px 16px;
   }
-  
+
   .no-credit-card {
     font-size: 13px;
   }
