@@ -1,0 +1,72 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 28px;
+  border-radius: 6px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  width: auto;
+  min-width: 200px;
+  height: auto;
+  border: none;
+  cursor: pointer;
+}
+
+.button--primary {
+  background-color: #001636;
+  color: #FFFFFF;
+}
+
+.button--primary:hover {
+  background-color: #002147;
+  transform: translateY(-1px);
+}
+
+.button--secondary {
+  background-color: #FCA739;
+  color: #052C67;
+}
+
+.button--secondary:hover {
+  background-color: #E8962A;
+  transform: translateY(-1px);
+}
+
+.button-icon {
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .button {
+    padding: 14px 24px;
+    font-size: 16px;
+    min-width: 180px;
+  }
+  
+  .button-icon {
+    width: 7px;
+    height: 7px;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    padding: 12px 20px;
+    font-size: 15px;
+    min-width: 160px;
+  }
+  
+  .button-icon {
+    width: 6px;
+    height: 6px;
+  }
+}
