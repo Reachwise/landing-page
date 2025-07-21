@@ -7,7 +7,7 @@ const MainContent = () => {
       <div className="hero-image-container">
         <div className="hero-image-background"></div>
         <img 
-          src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-18/WBaG9yAOtu.png" 
+          src="src/images/dashbaordimage.png" 
           alt="Reachwise Dashboard Interface" 
           className="hero-image"
         />
