@@ -15,7 +15,7 @@ const CTASection = () => {
         </p>
         <Button variant="secondary" className="cta-button">
           Reserve My Spot
-          <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-18/4S8RU7ruRZ.svg" alt="" className="button-icon" />
+          {/* <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-18/4S8RU7ruRZ.svg" alt="" className="button-icon" /> */}
         </Button>
       </div>
     </section>

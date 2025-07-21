@@ -25,11 +25,11 @@ const HeroSection = () => {
 
         <Button variant="primary" className="hero-cta">
           Join the Waitlist
-          <img
+          {/* <img
             src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-18/BKPD4iE7dt.svg"
             alt=""
             className="button-icon"
-          />
+          /> */}
         </Button>
 
         <p className="no-credit-card">No credit card needed</p>
