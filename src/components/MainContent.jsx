@@ -7,7 +7,7 @@ const MainContent = () => {
       <div className="hero-image-container">
         <div className="hero-image-background"></div>
         <img 
-          src="/src/images/dashbaordimage.png" 
+          src="src/images/image.png" 
           alt="Reachwise Dashboard Interface" 
           className="hero-image"
         />
