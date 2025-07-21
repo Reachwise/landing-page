@@ -16,7 +16,7 @@ const FeaturesSection = () => {
           <div className="prospect-card">
             <div className="prospect-info">
               <img
-                src="src/images/profileimage.png"
+                src="/src/images/profileimage.png"
                 alt="Joseph Mercer"
                 className="prospect-avatar"
               />
@@ -26,7 +26,7 @@ const FeaturesSection = () => {
               </div>
             </div>
             <img
-              src="src/images/linkedin.png"
+              src="/src/images/linkedin.png"
               alt="LinkedIn"
               className="linkedin-icon"
             />
