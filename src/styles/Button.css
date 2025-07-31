@@ -5,7 +5,7 @@
   gap: 8px;
   padding: 16px 28px;
   border-radius: 6px;
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.2;
@@ -20,7 +20,7 @@
 
 .button--primary {
   background-color: #001636;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .button--primary:hover {
@@ -29,12 +29,17 @@
 }
 
 .button--secondary {
-  background-color: #FCA739;
-  color: #052C67;
+  background-color: #fca739;
+  color: #052c67;
+}
+
+.button--sec {
+  background-color: #004182;
+  color: #ffffff;
 }
 
 .button--secondary:hover {
-  background-color: #E8962A;
+  background-color: #e8962a;
   transform: translateY(-1px);
 }
 
@@ -51,7 +56,7 @@
     font-size: 16px;
     min-width: 180px;
   }
-  
+
   .button-icon {
     width: 7px;
     height: 7px;
@@ -64,9 +69,18 @@
     font-size: 15px;
     min-width: 160px;
   }
-  
+
   .button-icon {
     width: 6px;
     height: 6px;
   }
+}
+
+
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+  transition: 0.3s ease;
 }

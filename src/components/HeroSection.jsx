@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "./Button";
 import "../styles/HeroSection.css";
+import JoinWaitlistModal from "./JoinWaitlistModal";
 
 const HeroSection = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleJoinClick = (e) => {
+    e.preventDefault(); // ✅ prevent default form or anchor behavior
+    setShowModal(true);
+  };
   return (
     <section className="hero-section">
       <div className="hero-badge">
@@ -23,15 +30,24 @@ const HeroSection = () => {
           prospects, tailoring intros, and scheduling follow-ups.
         </p>
 
-        <Button variant="primary" className="hero-cta">
+        <Button
+          variant="primary"
+          className="hero-cta"
+          onClick={handleJoinClick}
+        >
           Join the Waitlist
+          {/* Optional icon */}
           {/* <img
-            src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-18/BKPD4iE7dt.svg"
-            alt=""
-            className="button-icon"
-          /> */}
+          src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-18/BKPD4iE7dt.svg"
+          alt=""
+          className="button-icon"
+        /> */}
         </Button>
 
+        <JoinWaitlistModal
+          isOpen={showModal}
+          onClose={() => setShowModal(false)}
+        />
         <p className="no-credit-card">No credit card needed</p>
       </div>
     </section>
