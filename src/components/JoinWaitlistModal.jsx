@@ -148,8 +148,12 @@ const JoinWaitlistModal = ({ isOpen, onClose }) => {
               <option value="Account Executive">Account Executive</option>
               <option value="Growth Manager">Growth Manager</option>
               <option value="Marketing Manager">Marketing Manager</option>
-              <option value=" SDR">Sales Development Rep (SDR)</option>
-              <option value="BDR">Business Development Rep (BDR)</option>
+              <option value="Sales Development Rep (SDR)">
+                Sales Development Rep (SDR)
+              </option>
+              <option value="Business Development Rep (BDR)">
+                Business Development Rep (BDR)
+              </option>
               <option value="Head of Partnerships">Head of Partnerships</option>
               <option value="Recruiter">Recruiter</option>
               <option value="Customer Success Manager">
@@ -193,8 +197,12 @@ const JoinWaitlistModal = ({ isOpen, onClose }) => {
               <option value="Account Executive">Account Executive</option>
               <option value="Growth Manager">Growth Manager</option>
               <option value="Marketing Manager">Marketing Manager</option>
-              <option value=" SDR">Sales Development Rep (SDR)</option>
-              <option value="BDR">Business Development Rep (BDR)</option>
+              <option value="Sales Development Rep (SDR)">
+                Sales Development Rep (SDR)
+              </option>
+              <option value="Business Development Rep (BDR)">
+                Business Development Rep (BDR)
+              </option>
               <option value="Head of Partnerships">Head of Partnerships</option>
               <option value="Recruiter">Recruiter</option>
               <option value="Customer Success Manager">
