@@ -136,10 +136,25 @@ const JoinWaitlistModal = ({ isOpen, onClose }) => {
               onChange={(e) => setIndustry(e.target.value)}
               required
             >
-              <option value="">Industry</option>
-              <option value="Tech">Tech</option>
-              <option value="Finance">Finance</option>
-              <option value="Healthcare">Healthcare</option>
+              <option value="Founder">Founder</option>
+              <option value="CEO">CEO</option>
+              <option value="COO">COO</option>
+              <option value="CMO">CMO</option>
+              <option value="VP of Sales">VP of Sales</option>
+              <option value="Sales Manager">Sales Manager</option>
+              <option value="Business Development Manager">
+                Business Development Manager
+              </option>
+              <option value="Account Executive">Account Executive</option>
+              <option value="Growth Manager">Growth Manager</option>
+              <option value="Marketing Manager">Marketing Manager</option>
+              <option value=" SDR">Sales Development Rep (SDR)</option>
+              <option value="BDR">Business Development Rep (BDR)</option>
+              <option value="Head of Partnerships">Head of Partnerships</option>
+              <option value="Recruiter">Recruiter</option>
+              <option value="Customer Success Manager">
+                Customer Success Manager
+              </option>
             </select>
           </div>
 
@@ -166,10 +181,25 @@ const JoinWaitlistModal = ({ isOpen, onClose }) => {
               onChange={(e) => setPosition(e.target.value)}
               required
             >
-              <option value="">Position</option>
-              <option value="Manager">Manager</option>
-              <option value="Engineer">Engineer</option>
-              <option value="Designer">Designer</option>
+              <option value="Founder">Founder</option>
+              <option value="CEO">CEO</option>
+              <option value="COO">COO</option>
+              <option value="CMO">CMO</option>
+              <option value="VP of Sales">VP of Sales</option>
+              <option value="Sales Manager">Sales Manager</option>
+              <option value="Business Development Manager">
+                Business Development Manager
+              </option>
+              <option value="Account Executive">Account Executive</option>
+              <option value="Growth Manager">Growth Manager</option>
+              <option value="Marketing Manager">Marketing Manager</option>
+              <option value=" SDR">Sales Development Rep (SDR)</option>
+              <option value="BDR">Business Development Rep (BDR)</option>
+              <option value="Head of Partnerships">Head of Partnerships</option>
+              <option value="Recruiter">Recruiter</option>
+              <option value="Customer Success Manager">
+                Customer Success Manager
+              </option>
             </select>
           </div>
 
